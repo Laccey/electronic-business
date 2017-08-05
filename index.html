@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>首页</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
+</head>
+<body>
+    <div class="rightbar">
+    <!--方便定margin的空的div-->
+    <div id="rightbar-blankdiv"></div>
+    <!--用户头像-->
+    <!--购物车-->
+    <div class="sidebar-item my-cart">
+        <a href="#" target="_blank">
+            <i class="s-icon"></i>
+            <div class="s-txt">购物车</div>
+            <div class="num"></div>
+        </a>
+    </div>
+    <!--优惠券-->
+    <div class="sidebar-item my-coupon">
+        <a href="#" target="_blank">
+            <i class="s-icon"></i>
+            <div class="s-txt">优惠券</div>
+            <div class="num"></div>
+        </a>
+    </div>
+    <!--钱包-->
+    <div class="sidebar-item my-wallet">
+        <a href="#" target="_blank">
+            <i class="s-icon"></i>
+            <div class="s-txt">钱包</div>
+        </a>
+    </div>
+    <!--足迹-->
+    <div class="sidebar-item my-browserlog">
+        <a href="#" target="_blank">
+            <i class="s-icon"></i>
+            <div class="s-txt">足迹</div>
+        </a>
+    </div>
+    <div class="sideBottom">
+        <!--回到顶部-->
+        <!--<a href="#">-->
+            <div class="sidebar-item backtop">
+                <!--<div class="backtop">-->
+                    <i class="s-icon"></i>TOP
+                <!--</div>-->
+            </div>
+        <!--</a>-->
+    </div>
+</div>
+    <header>
+    <div id="header_top">
+        <div id="header_top_box">
+            <a href="#" class="home lf">首页</a>
+            <ul class="rf">
+                <li class="mr"><a href="#" class="regist">注册</a></li>
+                <li class="mr"><a href="#" class="login">登录</a></li>
+                <li class="mr ml has-line"><a class="myorder" href="#">我的订单</a></li>
+                <li class="mr ml has-line">
+                    <a class="shopping-cart" href="#">购物车</a>
+                    <div class="empty-cart">购物车里没有商品！</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="header_bottom">
+        <img src="images/logo.jpg" class="lf">
+        <div id="search">
+            <input type="search" name="user_search" class="text" placeholder="大地色眼影盘">
+            <input type="button" value="搜索" class="button">
+        </div>
+    </div>
+</header>
+    <nav class="clear">
+    <ul id="nav_box">
+        <li class="chos">
+            <a href="#">商品分类</a>
+            <div id="subnav_box">
+                <dl>
+                    <dt class="lf"><a href="#">上衣</a></dt>
+                    <dd class="lf">
+                        <a href="list.html">夏上衣/时尚套装/T恤</a>
+                        <dl class="subnav">
+                            <dt class="lf">当季热卖 ></dt>
+                            <dd class="lf">
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#" class="promed">雪纺衫</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#" class="promed">衬衫</a></em>
+                                <em><a href="#">T恤</a></em>
+                            </dd>
+                            <dt class="lf">流行新品 ></dt>
+                            <dd class="lf">
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#" class="promed">薄外套</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#" class="promed">防晒衫</a></em>
+                            </dd>
+                            <dt class="lf">潮流时尚 ></dt>
+                            <dd class="lf">
+                                <em><a href="#" class="promed">喇叭袖</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">刺绣</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">条纹控</a></em>
+                                <em><a href="#">T恤</a></em>
+                            </dd>
+                            <dt class="lf">品牌推荐 ></dt>
+                            <dd class="lf">
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#" class="promed">T恤</a></em>
+                            </dd>
+                        </dl>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="lf"><a href="#">裤子</a></dt>
+                    <dd class="lf">
+                        <a href="#">牛仔裤/短裤/休闲裤</a>
+                        <dl class="subnav">
+                            <dt class="lf">人气热销 ></dt>
+                            <dd class="lf">
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                            </dd>
+                            <dt class="lf">热门推荐 ></dt>
+                            <dd class="lf">
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                            </dd>
+                            <dt class="lf">经典必选 ></dt>
+                            <dd class="lf">
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                            </dd>
+                            <dt class="lf">潮流元素 ></dt>
+                            <dd class="lf">
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                            </dd>
+                        </dl>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="lf"><a href="#">裙子</a></dt>
+                    <dd class="lf">
+                        <a href="#">连衣裙/雪纺裙</a>
+                        <dl class="subnav">
+                            <dt class="lf">当季热卖 ></dt>
+                            <dd class="lf">
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#" class="promed">雪纺衫</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#" class="promed">衬衫</a></em>
+                                <em><a href="#">T恤</a></em>
+                            </dd>
+                            <dt class="lf">流行新品 ></dt>
+                            <dd class="lf">
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#" class="promed">薄外套</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#" class="promed">防晒衫</a></em>
+                            </dd>
+                            <dt class="lf">潮流时尚 ></dt>
+                            <dd class="lf">
+                                <em><a href="#" class="promed">喇叭袖</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">刺绣</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">条纹控</a></em>
+                                <em><a href="#">T恤</a></em>
+                            </dd>
+                            <dt class="lf">品牌推荐 ></dt>
+                            <dd class="lf">
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#" class="promed">T恤</a></em>
+                            </dd>
+                        </dl>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="lf"><a href="#">裤子</a></dt>
+                    <dd class="lf">
+                        <a href="#">牛仔裤/短裤/休闲裤</a>
+                        <dl class="subnav">
+                            <dt class="lf">人气热销 ></dt>
+                            <dd class="lf">
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                            </dd>
+                            <dt class="lf">热门推荐 ></dt>
+                            <dd class="lf">
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                            </dd>
+                            <dt class="lf">经典必选 ></dt>
+                            <dd class="lf">
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                            </dd>
+                            <dt class="lf">潮流元素 ></dt>
+                            <dd class="lf">
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                            </dd>
+                        </dl>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="lf"><a href="#">上衣</a></dt>
+                    <dd class="lf">
+                        <a href="#">夏上衣/时尚套装/T恤</a>
+                        <dl class="subnav">
+                            <dt class="lf">当季热卖 ></dt>
+                            <dd class="lf">
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#" class="promed">雪纺衫</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#" class="promed">衬衫</a></em>
+                                <em><a href="#">T恤</a></em>
+                            </dd>
+                            <dt class="lf">流行新品 ></dt>
+                            <dd class="lf">
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#" class="promed">薄外套</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#" class="promed">防晒衫</a></em>
+                            </dd>
+                            <dt class="lf">潮流时尚 ></dt>
+                            <dd class="lf">
+                                <em><a href="#" class="promed">喇叭袖</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">刺绣</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">条纹控</a></em>
+                                <em><a href="#">T恤</a></em>
+                            </dd>
+                            <dt class="lf">品牌推荐 ></dt>
+                            <dd class="lf">
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#" class="promed">T恤</a></em>
+                            </dd>
+                        </dl>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="lf"><a href="#">裤子</a></dt>
+                    <dd class="lf">
+                        <a href="#">牛仔裤/短裤/休闲裤</a>
+                        <dl class="subnav">
+                            <dt class="lf">人气热销 ></dt>
+                            <dd class="lf">
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                            </dd>
+                            <dt class="lf">热门推荐 ></dt>
+                            <dd class="lf">
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                            </dd>
+                            <dt class="lf">经典必选 ></dt>
+                            <dd class="lf">
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                            </dd>
+                            <dt class="lf">潮流元素 ></dt>
+                            <dd class="lf">
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                                <em><a href="#">T恤</a></em>
+                            </dd>
+                        </dl>
+                    </dd>
+                </dl>
+
+            </div>
+        </li>
+        <li><a href="#">省钱团购</a></li>
+        <li><a href="#">品牌优选</a></li>
+    </ul>
+</nav>
+    <content>
+        <div id="banner">
+            <a href="#" id="banner_img">
+                <img src="images/banner/banner_1.jpg" alt="邂逅最美的自己"/>
+                <img src="images/banner/banner_2.jpg" alt="夏之礼赞"/>
+                <img src="images/banner/banner_3.jpg" alt="一言不合就打折"/>
+                <img src="images/banner/banner_4.jpg" alt="美丽的邂逅"/>
+            </a>
+            <div>
+                <a href="###1"></a>
+                <a href="###2"></a>
+                <a href="###3"></a>
+                <a href="###4" class="point"></a>
+            </div>
+        </div>
+        <div id="activities">
+        <div class="active lf">
+            <a href="#" class="active_left lf">
+                <b>限时抢购</b>
+                <p class="black_bg">12 : 30 : 00</p>
+                <img src="images/product/mlrs_3.jpg">
+            </a>
+            <a href="#" class="active_right lf">
+                <b>一元抢好货</b>
+                <p>整点拼手速</p>
+                <img class="right" src="images/product/mlrs_7.jpg">
+            </a>
+            <a href="#" class="active_right_bot lf">
+                <b>0.01抽好运</b>
+                <p>一分钱幸运礼遇</p>
+                <img class="right" src="images/product/mlrs_8.jpg">
+            </a>
+        </div>
+        <div class="active lf">
+            <a href="#" class="active_left lf">
+                <b>团购好货</b>
+                <p>分格大牌夏季新品<span>10点上新</span></p>
+                <img src="images/product/mlrs_9.jpg">
+            </a>
+            <a href="#" class="active_right lf">
+                <b>品牌团</b>
+                <p class="black_bg">00 : 00 : 00</p>
+                <img class="right" src="images/product/mlrs_4.jpg">
+            </a>
+            <a href="#" class="active_right_bot lf">
+                <b>入仓质检</b>
+                <p><span>精选好货 劣一赔三</span></p>
+                <img class="right" src="images/product/mlrs_5.jpg">
+            </a>
+        </div>
+        <a href="#" class="active_last lf">
+            <b>甄选爆款</b>
+            <p>超值大牌 折扣满减</p>
+            <img src="images/product/mlrs_1.jpg">
+        </a>
+    </div>
+        <section id="main">
+        <div class="main_wrapper">
+            <p>美丽人生</p>
+            <div id="main_box">
+                <a href="#" class="left_box lf">
+                    <img src="images/product/adv.jpg">
+                    <div class="adv_title">大牌超值满减 ></div>
+                    <div class="adv_topic">
+                        <b>初夏绽放</b>
+                        <p>每周夏装新品换新</p>
+                    </div>
+                </a>
+                <div class="middle_box lf">
+
+                    <div class="product_top lf">
+                        <b>独家休闲装扮</b>
+                        <p>大牌间的混搭</p>
+                        <a href="#"><img src="images/product/mlrs_1.jpg"></a>
+                    </div>
+                    <div class="product_top lf">
+                        <b>夏季牛仔搭配</b>
+                        <p>WOOG2005</p>
+                        <a href="#"><img src="images/product/cowboy.jpg"></a>
+                    </div>
+                    <div class="product_top lf">
+                        <b>时尚女魔头</b>
+                        <p>没有高度不可行</p>
+                        <a href="#"><img src="images/product/mlrs_2.jpg"></a>
+                    </div>
+                    <div class="product_bottom lf">
+                        <b>夏季牛仔搭配</b>
+                        <p>WOOG2005</p>
+                        <a href="#"><img src="images/product/cowboy.jpg"></a>
+                    </div>
+                    <div class="product_bottom lf">
+                        <b>旅行的距离</b>
+                        <p>只差一个登机箱</p>
+                        <a href="#"><img src="images/product/mlrs_3.jpg"></a>
+                    </div>
+                    <div class="product_bottom lf">
+                        <b>夏季牛仔搭配</b>
+                        <p>WOOG2005</p>
+                        <a href="#"><img src="images/product/cowboy.jpg"></a>
+                    </div>
+                </div>
+                <div class="right_box lf">
+                    <div class="right_top">
+                        <b>夏季敲重点</b>
+                        <p>流行单品强势推荐</p>
+                        <a href="#"><img src="images/product/mlrs_4.jpg"></a>
+                    </div>
+                    <div class="right_top">
+                        <b>华而不贵</b>
+                        <p>流行单品强势推荐</p>
+                        <a href="#"><img src="images/product/mlrs_5.jpg"></a>
+                    </div>
+                    <div class="right_bottom">
+                        <b>夏季敲重点</b>
+                        <p>流行单品强势推荐</p>
+                        <a href="#"><img src="images/product/mlrs_6.jpg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_wrapper">
+            <p class="blue">潮电酷玩</p>
+            <div id="main_box">
+                <a href="#" class="left_box lf">
+                    <img src="images/product/1.jpg">
+                    <div class="adv_title">大牌超值满减 ></div>
+                    <div class="adv_topic blue">
+                        <b>初夏绽放</b>
+                        <p>每周夏装新品换新</p>
+                    </div>
+                </a>
+                <div class="middle_box lf">
+                    <div class="product_top lf">
+                        <b>夏季牛仔搭配</b>
+                        <p class="blue">WOOG2005</p>
+                        <a href="#"><img src="images/product/shirt.jpg"></a>
+                    </div>
+                    <div class="product_top lf">
+                        <b>夏季牛仔搭配</b>
+                        <p class="blue">WOOG2005</p>
+                        <a href="#"><img src="images/product/cowboy.jpg"></a>
+                    </div>
+                    <div class="product_top lf">
+                        <b>夏季牛仔搭配</b>
+                        <p class="blue">WOOG2005</p>
+                        <a href="#"><img src="images/product/cowboy.jpg"></a>
+                    </div>
+                    <div class="product_bottom lf">
+                        <b>夏季牛仔搭配</b>
+                        <p class="blue">WOOG2005</p>
+                        <a href="#"><img src="images/product/cowboy.jpg"></a>
+                    </div>
+                    <div class="product_bottom lf">
+                        <b>夏季牛仔搭配</b>
+                        <p class="blue">WOOG2005</p>
+                        <a href="#"><img src="images/product/cowboy.jpg"></a>
+                    </div>
+                    <div class="product_bottom lf">
+                        <b>夏季牛仔搭配</b>
+                        <p class="blue">WOOG2005</p>
+                        <a href="#"><img src="images/product/cowboy.jpg"></a>
+                    </div>
+                </div>
+                <div class="right_box lf">
+                    <div class="right_top">
+                        <b>夏季敲重点</b>
+                        <p class="blue">流行单品强势推荐</p>
+                        <a href="#"><img src="images/product/mlrs_4.jpg"></a>
+                    </div>
+                    <div class="right_top">
+                        <b>华而不贵</b>
+                        <p class="blue">流行单品强势推荐</p>
+                        <a href="#"><img src="images/product/mlrs_4.jpg"></a>
+                    </div>
+                    <div class="right_bottom">
+                        <b>夏季敲重点</b>
+                        <p class="blue">流行单品强势推荐</p>
+                        <a href="#"><img src="images/product/mlrs_4.jpg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_wrapper">
+            <p class="green">居家生活</p>
+            <div id="main_box">
+                <a href="#" class="left_box lf">
+                    <img src="images/product/adv.jpg">
+                    <div class="adv_title">大牌超值满减 ></div>
+                    <div class="adv_topic green">
+                        <b>初夏绽放</b>
+                        <p>每周夏装新品换新</p>
+                    </div>
+                </a>
+                <div class="middle_box lf">
+                    <div class="product_top lf">
+                        <b>夏季牛仔搭配</b>
+                        <p class="green">WOOG2005</p>
+                        <a href="#"><img src="images/product/cowboy.jpg"></a>
+                    </div>
+                    <div class="product_top lf">
+                        <b>夏季牛仔搭配</b>
+                        <p class="green">WOOG2005</p>
+                        <a href="#"><img src="images/product/cowboy.jpg"></a>
+                    </div>
+                    <div class="product_top lf">
+                        <b>夏季牛仔搭配</b>
+                        <p class="green">WOOG2005</p>
+                        <a href="#"><img src="images/product/cowboy.jpg"></a>
+                    </div>
+                    <div class="product_bottom lf">
+                        <b>夏季牛仔搭配</b>
+                        <p class="green">WOOG2005</p>
+                        <a href="#"><img src="images/product/cowboy.jpg"></a>
+                    </div>
+                    <div class="product_bottom lf">
+                        <b>夏季牛仔搭配</b>
+                        <p class="green">WOOG2005</p>
+                        <a href="#"><img src="images/product/cowboy.jpg"></a>
+                    </div>
+                    <div class="product_bottom lf">
+                        <b>夏季牛仔搭配</b>
+                        <p class="green">WOOG2005</p>
+                        <a href="#"><img src="images/product/cowboy.jpg"></a>
+                    </div>
+                </div>
+                <div class="right_box lf">
+                    <div class="right_top">
+                        <b>夏季敲重点</b>
+                        <p class="green">流行单品强势推荐</p>
+                        <a href="#"><img src="images/product/mlrs_4.jpg"></a>
+                    </div>
+                    <div class="right_top">
+                        <b>华而不贵</b>
+                        <p class="green">流行单品强势推荐</p>
+                        <a href="#"><img src="images/product/mlrs_4.jpg"></a>
+                    </div>
+                    <div class="right_bottom">
+                        <b>夏季敲重点</b>
+                        <p class="green">流行单品强势推荐</p>
+                        <a href="#"><img src="images/product/mlrs_4.jpg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_wrapper">
+            <p class="red">居家生活</p>
+            <div id="main_box">
+                <a href="#" class="left_box lf">
+                    <img src="images/product/adv.jpg">
+                    <div class="adv_title">大牌超值满减 ></div>
+                    <div class="adv_topic red">
+                        <b>初夏绽放</b>
+                        <p>每周夏装新品换新</p>
+                    </div>
+                </a>
+                <div class="middle_box lf">
+                    <div class="product_top lf">
+                        <b>夏季牛仔搭配</b>
+                        <p class="red">WOOG2005</p>
+                        <a href="#"><img src="images/product/cowboy.jpg"></a>
+                    </div>
+                    <div class="product_top lf">
+                        <b>夏季牛仔搭配</b>
+                        <p class="red">WOOG2005</p>
+                        <a href="#"><img src="images/product/cowboy.jpg"></a>
+                    </div>
+                    <div class="product_top lf">
+                        <b>夏季牛仔搭配</b>
+                        <p class="red">WOOG2005</p>
+                        <a href="#"><img src="images/product/cowboy.jpg"></a>
+                    </div>
+                    <div class="product_bottom lf">
+                        <b>夏季牛仔搭配</b>
+                        <p class="red">WOOG2005</p>
+                        <a href="#"><img src="images/product/cowboy.jpg"></a>
+                    </div>
+                    <div class="product_bottom lf">
+                        <b>夏季牛仔搭配</b>
+                        <p class="red">WOOG2005</p>
+                        <a href="#"><img src="images/product/cowboy.jpg"></a>
+                    </div>
+                    <div class="product_bottom lf">
+                        <b>夏季牛仔搭配</b>
+                        <p class="red">WOOG2005</p>
+                        <a href="#"><img src="images/product/cowboy.jpg"></a>
+                    </div>
+                </div>
+                <div class="right_box lf">
+                    <div class="right_top">
+                        <b>夏季敲重点</b>
+                        <p class="red">流行单品强势推荐</p>
+                        <a href="#"><img src="images/product/mlrs_4.jpg"></a>
+                    </div>
+                    <div class="right_top">
+                        <b>华而不贵</b>
+                        <p class="red">流行单品强势推荐</p>
+                        <a href="#"><img src="images/product/mlrs_4.jpg"></a>
+                    </div>
+                    <div class="right_bottom">
+                        <b>夏季敲重点</b>
+                        <p class="red">流行单品强势推荐</p>
+                        <a href="#"><img src="images/product/mlrs_4.jpg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="aside_nav">
+
+        </div>
+    </section>
+    </content>
+    <footer class="clear">
+    <div class="footer_box">
+        <div class="footer_content lf">
+            <div class="content_left lf"><h4>优</h4></div>
+            <div class="content_right lf">
+                <h3>品质保障</h3>
+                <p>品质护航 购物无忧</p>
+            </div>
+        </div>
+        <div class="footer_content lf">
+            <div class="content_left lf"><h4>七</h4></div>
+            <div class="content_right lf">
+                <h3>七天无理由退换货</h3>
+                <p>为您提供售后无忧保障</p>
+            </div>
+        </div>
+        <div class="footer_content lf">
+            <div class="content_left lf"><h4>特</h4></div>
+            <div class="content_right lf">
+                <h3>特色服务体验</h3>
+                <p>为您呈现不一样的服务</p>
+            </div>
+        </div>
+        <div class="footer_content lf">
+            <div class="content_left lf"><h4>帮</h4></div>
+            <div class="content_right lf">
+                <h3>帮助中心</h3>
+                <p>您的购物指南</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/sidebar.js"></script>
+</body>
+</html>
